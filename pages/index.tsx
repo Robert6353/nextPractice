@@ -74,7 +74,8 @@ export default function Home() {
       </div>
         
         {/* YouTube column */}
-      <div className= {focusMode ? styles.hide : `${styles.colYoutube} ${styles.gridColumn}`}>
+      <div className= {focusMode ? 
+styles.hide : `${styles.colYoutube} ${styles.gridColumn}`}>
         <iframe
     src="https://www.youtube.com/embed/dQw4w9WgXcQ"
           title="YouTube Embed"
